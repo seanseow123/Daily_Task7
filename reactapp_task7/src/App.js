@@ -3,51 +3,6 @@ import data from './data';
 import GroceryArr from './GroceryArr';
 import DisplayPerson from './DisplayPerson';
 
-class App extends Component {
-  
-
-  state = {
-      name: "Sean",
-      age: 20,
-      job: "Developer",
-      salary: "$2000"
-  }
-
-
-  render() {
-      return (
-          <>
-              <DisplayPerson name={this.state.name} age={this.state.age} job={this.state.job} salary={this.state.salary} />
-             
-          </>
-      )
-  }
-}
-
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Question 1
 // const App = () => {
 
@@ -130,4 +85,29 @@ export default App;
 //     }
 // }
     
+// export default App;
+
+//Question 3
+// class App extends Component {
+  
+
+//   state = {
+//       name: "Sean",
+//       age: 20,
+//       job: "Developer",
+//       salary: "$2000"
+//   }
+
+
+//   render() {
+//       return (
+//           <>
+//               <DisplayPerson name={this.state.name} age={this.state.age} job={this.state.job} salary={this.state.salary} />
+             
+//           </>
+//       )
+//   }
+// }
+
+
 // export default App;
